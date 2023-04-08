@@ -1,7 +1,11 @@
 import { Component } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
+  imports: [BrowserModule, AppRoutingModule],
   template: `
     <!--The content below is only a placeholder and can be replaced.-->
     <div style="text-align:center" class="content">
